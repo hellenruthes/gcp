@@ -1,0 +1,8 @@
+# Ignore files and directories starting with .idea/
+.idea/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore virtual environment directory
+venv/
