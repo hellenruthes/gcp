@@ -1,0 +1,6 @@
+# Ignore files and directories starting with .idea/
+.idea/
+
+# Ignore virtual environment directory
+venv/
+
