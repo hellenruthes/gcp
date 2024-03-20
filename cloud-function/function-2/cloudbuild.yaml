@@ -8,9 +8,9 @@ steps:
         "--entry-point=hello_http",
         "--region=us-central1",
         "--trigger-http",
-        "--runtime=python312"
+        "--runtime=python312",
+        "--source=./cloud-function/function-2",
       ]
-    env:
-      - 'GOOGLE_FUNCTION_SOURCE=main.py' 
+    
 options:
   logging: CLOUD_LOGGING_ONLY
