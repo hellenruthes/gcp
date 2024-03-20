@@ -9,7 +9,5 @@ steps:
         "--region=us-central1",
         "--trigger-http",
         "--runtime=python312",
-        "--source=function-2",
-      ]
-  options:
-    logging: CLOUD_LOGGING_ONLY
+        "--source=function-2"]
+    logsBucket: 'gs://data-eng-bucket'
