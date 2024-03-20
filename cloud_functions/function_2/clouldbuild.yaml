@@ -4,10 +4,10 @@ steps:
       [
         "functions",
         "deploy",
-        "function-1",
+        "function-2",
         "--entry-point=hello_http",
         "--region=us-central1",
         "--trigger-http",
         "--runtime=python312",
-        "--source=function-1",
+        "--source=function-2",
       ]
