@@ -8,7 +8,7 @@ steps:
         "--entry-point=hello_http",
         "--region=us-central1",
         "--trigger-http",
-        "--runtime=python312",
-        "--source=function-2"]
+        "--runtime=python312"
+      ]
 options:
   logging: CLOUD_LOGGING_ONLY
