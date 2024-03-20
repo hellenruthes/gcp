@@ -10,5 +10,4 @@ steps:
         "--trigger-http",
         "--runtime=python312",
         "--source=function-2"]
-  - options:
-    logging: CLOUD_LOGGING_ONLY
+    logsBucket: 'gs://data-eng-bucket'
