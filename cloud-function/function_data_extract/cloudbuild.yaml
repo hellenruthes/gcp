@@ -5,7 +5,7 @@ steps:
         "functions",
         "deploy",
         "function_data_extract",
-        "--entry-point=hello_http",
+        "--entry-point=download_data",
         "--region=us-central1",
         "--trigger-http",
         "--runtime=python312",
