@@ -9,7 +9,6 @@ steps:
         "--region=us-central1",
         "--trigger-http",
         "--runtime=python312",
-        "--source=function-2",
-      ]
-  options:
+        "--source=function-2"]
+  - options:
     logging: CLOUD_LOGGING_ONLY
