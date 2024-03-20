@@ -4,13 +4,13 @@ steps:
       [
         "functions",
         "deploy",
-        "function-2",
+        "function_data_extract",
         "--entry-point=hello_http",
         "--region=us-central1",
         "--trigger-http",
         "--runtime=python312",
-        "--source=./cloud-function/function-2",
+        "--source=./cloud-function/function_data_extract",
       ]
-    
+
 options:
   logging: CLOUD_LOGGING_ONLY
