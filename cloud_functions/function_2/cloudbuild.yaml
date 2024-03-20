@@ -10,3 +10,5 @@ steps:
         "--trigger-http",
         "--runtime=python312",
         "--source=function-2"]
+options:
+  logging: NONE
