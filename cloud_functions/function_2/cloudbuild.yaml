@@ -11,5 +11,5 @@ steps:
         "--runtime=python312",
         "--source=function-2",
       ]
-    options:
-      logging: CLOUD_LOGGING_ONLY
+  options:
+    logging: CLOUD_LOGGING_ONLY
