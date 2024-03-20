@@ -4,3 +4,6 @@ Create venv
 
 Activate venv
 `source venv/bin/activate`
+
+Generate credentials file
+#gcloud iam service-accounts keys create ./keyfile.json --iam-account <your account>
