@@ -11,6 +11,6 @@ steps:
         "--runtime=python312"
       ]
     env:
-      - 'GOOGLE_FUNCTION_SOURCE=cloud_functions/function_2/main.py' 
+      - 'GOOGLE_FUNCTION_SOURCE=main.py' 
 options:
   logging: CLOUD_LOGGING_ONLY
